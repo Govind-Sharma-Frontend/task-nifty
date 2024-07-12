@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  margin-bottom: 3rem !important;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: "fit-content" !important;
+  height: 250px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.BG-darkSlateGrayGradient {
+  background: linear-gradient(90deg, #537e95 0%, #004063 100%);
+}
+
+.BG-darkSlateGrayGradient:hover {
+  background: none;
+}
+
+table,
+th,
+td {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+td {
+  width: 25%;
+  padding: 20px;
+}
+
+th {
+  padding: 20px;
+}
+
+footer {
+  background-image: url("../@core//assets/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 50px !important;
+}
+
+@media only screen and (max-width: 996px) {
+  .slick-track {
+    padding-top: 4rem;
+  }
+  th {
+    width: 25% !important;
+    padding: 10px;
+  }
+  td {
+    padding: 10px;
+  }
+}
+
+.hover-me:hover h3,
+.hover-me:hover p,
+.hover-me:hover svg {
+  color: #4399eb;
+  fill: #4399eb;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+}
