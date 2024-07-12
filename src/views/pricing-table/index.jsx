@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import ApproveIcon from "@/@core/assets/approveIcon.png";
 import RejectIcon from "@/@core/assets/rejectIcon.png";
 import { pricingData } from "@/db";
@@ -6,8 +7,6 @@ import { pricingData } from "@/db";
 const PricingTable = () => {
   return (
     <div className="container mx-auto lg:px-14 lg:py-14 overflow-auto">
-      
-
       <table className="w-full ">
         <thead>
           <tr>

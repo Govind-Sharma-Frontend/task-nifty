@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Image from "next/image";
 
 import { EffectCoverflow, Autoplay } from "swiper/modules";
@@ -11,7 +13,6 @@ import sliderImage2 from "@/@core/assets/slider-images/live-market-screener.webp
 import sliderImage3 from "@/@core/assets/slider-images/oprion-chain.webp";
 import sliderImage4 from "@/@core/assets/slider-images/option-simulator.webp";
 import sliderImage5 from "@/@core/assets/slider-images/advance-stock-screener.webp";
-import { useState } from "react";
 
 const HomeSlider = () => {
   const sliderImages = [

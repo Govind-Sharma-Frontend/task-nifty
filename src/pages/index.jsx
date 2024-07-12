@@ -1,21 +1,20 @@
 import Image from "next/image";
 
+import BGImage from "@/@core/assets/outdated-bg.jpg";
 import Navigation from "@/components/navigation";
 import { FAQData, marketInsightData } from "@/db";
+import ClientTestimonials from "@/views/client-testimonials";
 import HeaderSection from "@/views/header";
 import HomeSlider from "@/views/home-slider";
-import BGImage from "@/@core/assets/outdated-bg.jpg";
 import PricingTable from "@/views/pricing-table";
-import ClientTestimonials from "@/views/client-testimonials";
 
 import facebookIcon from "@/@core/assets/social-media-icons/facebookIcon.png";
 import instagramIcon from "@/@core/assets/social-media-icons/instagramIcon.png";
-import twitterIcon from "@/@core/assets/social-media-icons/twitterIcon.png";
 import linkedInIcon from "@/@core/assets/social-media-icons/linkedInIcon.png";
-import YTIcon from "@/@core/assets/social-media-icons/youtubeIcon.png";
 import telegramIcon from "@/@core/assets/social-media-icons/telegramIcon.png";
+import twitterIcon from "@/@core/assets/social-media-icons/twitterIcon.png";
+import YTIcon from "@/@core/assets/social-media-icons/youtubeIcon.png";
 import FAQs from "@/views/faqs";
-import QueryStatsIcon from "@/@core/assets/queryStatsIcon";
 
 export default function Home() {
   const socialMediaIcons = [
